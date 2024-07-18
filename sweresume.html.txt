@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>resume page</title>
+</head>
+
+
+<body>
+<h1><center><u><b>Resume</b></u></center></h1>
+<h3>Swetha R</h3>
+<img src="https://www.rajalakshmi.org/QRCode/img/220701297.jpg" alt="swetha" align="right" width="180" height="220">
+<h3><u>Educational details</u></h3>
+<ul>
+  <li>BE computer Science and Engineering<br>Rajalakshmi Engineeering College<br>cgpa: 8.74</li>
+  <li>Higher Secondary <br>AKKV Aarunadu Matric Hr Sec School<br> 96%</li>
+  <li>Secondary <br>Sheik Fathima Girls Matric Hf School<br>98.8% </li>
+</ul>
+<h3><u>Perosonal Details</u></h3>
+<ul>
+  <li><u>contact no:<</u> 9790266947</li>
+  <li><u>dob:</u> 07/04/2005</li>
+  <li> <u>address:</u>6/272,Muniyandi Vilas<br> Meemisal road<br> Avudaiyarkovil <br>Pudukkottai 614618</li>
+  <li><u>email:</u>theswetharamesh@gmail.com </li>
+
+</ul>
+<h3><u>ExtraCurriculum </u></h3>
+<ul>
+  <li><u>nptel:</u>Data Analytics Using Python</li>
+  <li><u>nptel:</u>Joy Of Computing Using Python</li>
+</ul>
+</body>
+</html>
