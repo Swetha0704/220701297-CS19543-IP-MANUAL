@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LIBRARY</title>
+<style>
+.one{
+height:500px;
+background-color:#90EE90;
+}
+body
+{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+text-align:center;
+margin:100px;
+}
+[type="submit"],[type="reset"]{
+height:28px;
+}
+[type="text"],[type="number"]{
+width: 300px; 
+height:5px;
+padding: 10px;
+margin: 5px 0;
+border-radius:7%;
+}
+select{
+width: 300px; 
+height:30px;
+}
+</style>
+<script>
+</script>
+</head>
+<body>
+<div class=one>
+<h1>Library Management System</h1>
+<form method="get" action="Search">
+<input type="text" name="m1"><input type="submit" value="Search"><br>
+</form>
+
+<form method="get" action="Insert">
+Book_ID:<input type="number" name="m2"><br>
+Book Name:<input type="text" name="m3"><br>
+Author:<input type="text" name="m4"><br>
+Publisher:<input type="text" name="m8"><br>
+Edition:<input type="text" name="m9"><br>
+Price:<input type="number" name="m5"><br>
+Operation:<select name="m7">
+<option>Insert</option>
+<option>Update</option>
+<option>Delete</option>
+</select><br>
+<pre><input type="submit">     <input type="reset"></pre> 
+</form>
+<form method="get" action="Display">
+<input type="submit" value="ViewAll"></form>
+</div>
+</body>
+</html>
