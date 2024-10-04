@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>Simple Ajax Program</head><br>
+    <body>
+        <button type="button" onclick="load()">Get Text File Data</button>
+        <div id="mes" >
+            this is mes div box
+        </div>
+        <script>
+            function load(){
+                var a=new XMLHttpRequest();
+                a.open("GET","ajax2.html",true);
+                a.send();
+                a.onreadystatechange=function()
+                {
+                    if(this.readyState==4 && this.status==200)
+                    {
+                        document.getElementById("mes").innerHTML=this.responseText;
+                    };
+                }
+            }
+        </script>
+    </body>
+</html>
