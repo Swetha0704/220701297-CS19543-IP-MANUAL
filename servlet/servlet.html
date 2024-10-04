@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Course Registration Form</title>
+<style>
+      body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size:30px;
+            background-color:beige;
+            margin: 0;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+        }
+        form {
+            background-color: #90EE90;
+            padding-right: 250px;
+            padding-left: 20px;
+            padding-top: 60px;
+            padding-bottom: 0px;
+            border-radius: 10px;
+            margin:-100px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+        }
+        input[type="text"],input[type="number"],input[type="email"],select {
+            width: calc(100% - 22px);
+            padding: 8px;
+            margin: 5px 0 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        input[type="submit"],input[type="reset"] {
+            background-color: #4CAF50;
+            color: rgb(81, 6, 6);
+            padding: 10px 20px;
+            margin: 10px 5px 0;
+            border-radius: 4px;
+            cursor: pointer;
+            justify-items: center;
+        }
+        input[type="submit"]:hover,input[type="reset"]:hover {
+            background-color: #ce1885;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<h2>Course Registration Form</h2>
+<form action="Course" name="n2" method="get">
+<pre>
+Student Name:<input type="text" name="n1"><br>
+Roll no:<input type="number" name="n2"><br>
+Gender:<input type="radio" name="n3" value="male">male <input type="radio" name="n3" value="female">female<br>
+Year:<select name="n4"><option>1</option><option>2</option><option>3</option><option>4</option></select><br>
+Department:<input type="text" name="n5"><br>
+Section:<input type="text" name="n6"><br>
+Mobile Number:<input type="text" name="n7"><br>
+Email_ID:<input type="email" name="n8"><br>
+Address:<input type="text" name="n9"><br>
+City:<input type="text" name="n10"><br>
+Country:<input type="text" name="n11"><br>
+Pincode:<input type="text" name="n12"><br>
+<div class="button-container">
+<center>           <input type="submit">         <input type="reset"><br></center>
+</div>
+</pre>
+</form>
+</div>
+</body>
+</html>
