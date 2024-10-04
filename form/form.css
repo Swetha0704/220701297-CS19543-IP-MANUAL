@@ -1,0 +1,15 @@
+.first{
+    text-align: center;
+    font: size 30px;
+    color: rgba(0, 0, 0, 0.71);
+    font-family:'Times New Roman', Times, serif;
+}
+input{
+    margin-bottom: 10px;
+}
+body{
+    background: url(https://www.rajalakshmi.org/image/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
